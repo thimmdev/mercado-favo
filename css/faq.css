@@ -48,6 +48,16 @@
   color: var(--secondary-color);
 }
 
+@media (max-width: 768px) {
+  .faq-grid {
+    width: 90%;
+    margin: 1.5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+
 @media (max-width: 400px) {
   .faq {
     padding: 3rem;
