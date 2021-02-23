@@ -456,6 +456,11 @@ nav img {
   margin: 0;
 }
 
+.main-title h1 {
+  width: 60%;
+  margin: 0 auto;
+}
+
 @media (max-width: 1200px) {
   .social-section {
     height: auto;
@@ -506,7 +511,20 @@ nav img {
   }
 }
 
-@media (max-width: 400px) {
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .social-section {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .main-title h1 {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-overflow: center;
+  }
+}
+
+@media (max-width: 500px) {
   .social-section {
     padding-top: 3rem;
     height: auto;
@@ -518,9 +536,8 @@ nav img {
   }
 
   .main-title h1 {
-    margin: 2rem 0;
+    margin: 0 auto;
     font-size: 1.6rem;
-    margin: 0 0 2rem;
   }
 
   .facebook,
@@ -594,8 +611,13 @@ nav img {
 }
 
 .faq a {
-  text-decoration: none;
   color: var(--secondary-color);
+}
+
+@media (min-width: 800px) {
+  .main-title h1 {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -606,9 +628,13 @@ nav img {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+
+  .main-title h1 {
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 400px) {
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .faq {
     padding: 3rem;
     background: none;
@@ -670,7 +696,76 @@ nav img {
   }
 
   .faq a {
-    text-decoration: none;
+    color: var(--secondary-color);
+  }
+}
+
+@media (max-width: 500px) {
+  .faq {
+    padding: 3rem;
+    background: none;
+  }
+
+  .main-title h1 {
+    margin: 0 auto;
+  }
+
+  .faq-title {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .faq-grid {
+    width: 90%;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 0 0;
+  }
+
+  .mobile-wrapper {
+    background: url(../images/mobilewrapper.svg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 2rem -1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5rem 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .faq-rightside,
+  .faq-leftside {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .faq-rightside {
+    margin-bottom: 1.3rem;
+  }
+
+  .faq-leftside {
+    margin-top: 1.3rem;
+  }
+
+  .faq p,
+  .faq h4 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .faq a {
     color: var(--secondary-color);
   }
 }
