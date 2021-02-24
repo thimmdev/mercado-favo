@@ -451,6 +451,12 @@ nav img {
 }
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .modal-final-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .modal-final-img svg {
     width: 24vw;
     margin: 4vh auto;
