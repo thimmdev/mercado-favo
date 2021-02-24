@@ -359,8 +359,9 @@ nav img {
   margin: 0 20px;
 }
 
-.modal-final-img {
-  margin-top: 50px;
+.modal-final-img svg {
+  width: 15vw;
+  margin: 6vh auto;
   display: flex;
   justify-content: center;
 }
@@ -376,12 +377,19 @@ nav img {
   }
 
   .modal-content {
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
   }
 
   .close {
     top: 80px;
     right: 40px;
+  }
+
+  .modal-final-img svg {
+    /* width: 28%; */
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -415,12 +423,19 @@ nav img {
   }
 
   .modal-content {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   .close {
     top: 80px;
     right: 40px;
+  }
+
+  .modal-final-img svg {
+    width: 24vw;
+    margin: 3vh auto;
+    display: flex;
+    justify-content: center;
   }
 }
 
