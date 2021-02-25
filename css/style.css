@@ -13,7 +13,7 @@ body {
 }
 
 * {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a {
@@ -313,7 +313,7 @@ nav img {
   overflow: auto;
 
   width: 80%;
-  height: 135rem;
+  /* height: 135rem; */
   max-width: 108rem;
 
   padding: 0 2rem;
@@ -956,4 +956,4 @@ footer p {
     order: 2;
     margin: 1rem 3rem;
   }
-} ;
+}
